@@ -3,9 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <title>링크1</title>
+        <style>
+            #transform_skew {
+                width: 567px;
+                height: 569px;
+                background-image: url("COOL.jpg");
+                transition-property: width;
+                transition-duration: 3s;
+                transition-timing-function: ease;
+                transition-delay: 1s;
+            }
+
+            #transform_skew:hover {
+                width: 1134px;
+            }
+        </style>
     </head>
 
     <body>
-        <img src = "COOL.jpg" alt="아~여름이다" title="시발롬아">
+        <div id="transform_skew"></div>
+        <!-- <img src = "COOL.jpg" alt="아~여름이다" title="시발롬아"> -->
     </body>
 </HTML>
