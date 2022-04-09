@@ -11,6 +11,14 @@ ul {
     list-style: none;
 }
 
+@media (max-width: 400px)
+    {   .sex
+            {
+                background-color: tomato;
+            }
+
+}
+
 .nice1 {
     position: fixed;
     float: right;
